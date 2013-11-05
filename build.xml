@@ -1,6 +1,15 @@
 <project name="HelloWorld" basedir="." default="main">
+
+	<target name="clean">
+		<delete>
+    		<fileset dir="." includes="**/*"/>
+  		</delete>
+	</target>
+
     <target name="compile">
-        <javac srcdir="." destdir="." excludes="*.xml *.jar *.class" />
+        <javac destdir="build">
+        	<src path="hello.java" />
+        <javac />
     </target>
 
     <target name="jar" depends="compile">
