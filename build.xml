@@ -9,6 +9,7 @@
     <property name="jar.dir"     value="${build.dir}/jar"/>
 
     <property name="main-class"  value="hello.java"/>
+    <property name="ant.project.name" value="HelloWorld" />
 
     <target name="clean">
         <delete dir="${build.dir}"/>
