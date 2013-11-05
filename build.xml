@@ -9,7 +9,7 @@
     <target name="compile">
         <javac destdir="build">
         	<src path="hello.java" />
-        <javac />
+        </javac>
     </target>
 
     <target name="jar" depends="compile">
