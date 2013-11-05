@@ -2,8 +2,9 @@
 
 	<target name="clean">
 		<delete>
-    		<fileset dir="." includes="**/*"/>
+    		<fileset dir="build" includes="**/*"/>
   		</delete>
+  		<mkdir dir="build" />
 	</target>
 
     <target name="compile">
