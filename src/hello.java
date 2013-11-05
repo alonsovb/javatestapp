@@ -7,5 +7,6 @@ class Hello {
 		System.out.println("We're good to go.");
 		System.out.println("Change.");
 		System.out.println("Another.");
+		System.out.println("Last one.");
     }
 }
